@@ -3,7 +3,7 @@
 An AI-powered email reply generator built with **React + Vite** (frontend) and **Spring Boot** (backend). Paste any email, pick a tone, and get a smart reply instantly.
 ---
 
-![App Screenshot](./screenshot.png)
+![App Screenshot](./assests/screenshot.png)
 
 ---
 
