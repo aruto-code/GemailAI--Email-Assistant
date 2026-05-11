@@ -16,7 +16,6 @@ The **AI Reply** button injects into Gmail's compose toolbar.
 
 ![Extension Screenshot](./assets/extension.png)
 
----
 
 ---
 
