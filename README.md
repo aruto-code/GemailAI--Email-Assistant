@@ -1,9 +1,6 @@
 # Email Reply Generator ✉️
 
 An AI-powered email reply generator built with **React + Vite** (frontend) and **Spring Boot** (backend). Paste any email, pick a tone, and get a smart reply instantly.
-
-> 🎥 **Demo Video**: [Watch on YouTube](https://youtu.be/hpiO9CKkKfU?si=fYsYL0MeTkKfU)
-
 ---
 
 ![App Screenshot](./screenshot.png)
@@ -16,7 +13,6 @@ An AI-powered email reply generator built with **React + Vite** (frontend) and *
 - 🎭 Choose from tone options: **Auto**, **Professional**, **Casual**, **Friendly**
 - ⚡ Fast response powered by AI
 - 📋 One-click copy to clipboard
-- 🌙 Sleek dark UI with gold accents
 
 ---
 
@@ -36,7 +32,6 @@ An AI-powered email reply generator built with **React + Vite** (frontend) and *
 
 ### Prerequisites
 
-- Node.js (v18+)
 - Java 17+
 - Maven
 
@@ -116,8 +111,8 @@ email-reply-generator/
 
 ```json
 {
-  "emailContent": "Hey! Did you reach home?",
-  "tone": "friendly"
+  "emailContent": "Hey! Please Share your Resume/CV ASAP.",
+  "tone": "Professional"
 }
 ```
 
@@ -125,6 +120,3 @@ email-reply-generator/
 
 ---
 
-## License
-
-MIT License — feel free to use and modify.
