@@ -9,12 +9,12 @@ An AI-powered email reply generator built with **React + Vite** (frontend) and *
 ### Web App
 Paste an email on the left, get the reply on the right.
 
-![App Screenshot](./assets/Screenshot.png)
+![App Screenshot](./assests/Screenshot.png)
 
 ### Gmail Extension
 The **AI Reply** button injects into Gmail's compose toolbar.
 
-![Extension Screenshot](./assets/extension.png)
+![Extension Screenshot](./assests/extension.png)
 
 
 ---
