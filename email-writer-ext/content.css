@@ -1,0 +1,48 @@
+@keyframes aiSpinner {
+  to { transform: rotate(360deg); }
+}
+
+.ai-reply-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  margin-right: 8px;
+  padding: 0 16px;
+  height: 32px;
+  border-radius: 6px;
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  color: #1a1000;
+  font-family: 'Google Sans', Roboto, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  user-select: none;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.ai-reply-button:hover {
+  background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+  box-shadow: 0 3px 10px rgba(245,158,11,0.45);
+  transform: translateY(-1px);
+}
+
+.ai-reply-button:active {
+  transform: translateY(0) scale(0.97);
+}
+
+.ai-reply-button.loading {
+  opacity: 0.75;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.ai-reply-button .btn-spinner {
+  animation: aiSpinner 0.85s linear infinite;
+  flex-shrink: 0;
+}
